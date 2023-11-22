@@ -1,0 +1,26 @@
+<h1>My ToDo's</h1>
+<div class="container">
+  <table class="todos">
+    <caption>My To Do List</caption>
+    <tr>
+      <td>ID</td>
+      <td>Description</td>
+      <td>Completed</td>
+      <td>Target Date</td>
+    </tr>
+    <!--<tr *ngFor="let todo of todos">
+      <td>{{todo.id}}</td>
+      <td>{{todo.description}}</td>
+      <td>{{todo.done}}</td>
+      <td>{{todo.targetDate | date | uppercase}}</td>
+    </tr>
+    <tr *ngFor="let data of toToTest">
+       <td>{{data.id}}</td>
+       <td>{{data.name}}</td>
+    </tr>-->
+  </table>
+  <div class="row">
+    <button (click)="addTodo()" class="btn btn-success">Add</button>
+</div>
+
+</div>
